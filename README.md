@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# NewsNow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Details
+In this project, I developed a web application using React and JavaScript, and I have utilized bootsrap for CSS styling to create a visually appealing and responsive user interface. The primary goal of this project was to built a web application which provides the latest news articles from all over the world. I placed a strong emphasis on ensuring a smooth and intuitive user experience, including the graceful handling of null and empty data cases.
 
-In the project directory, you can run:
+The project's codebase is meticulously organized, with an emphasis on readability and adherence to best coding practices. To aid anyone interested in the project, I provided a comprehensive README that includes details on the project's folder structure and essential pointers for understanding the code. The GitHub repository is accessible to the public, enabling easy review and assessment by potential collaborators or employers.
 
-### `npm start`
+This project not only demonstrates my proficiency in React, API integration, state management, and UI development but also underscores my commitment to maintaining developer-friendly practices. The use of Bootstrap for CSS styling ensures that the dashboard is aesthetically pleasing, user-friendly, and fully responsive across various devices, making it a valuable asset in any web development portfolio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Built With
 
-### `npm test`
+- [React.js](https://react.dev/)
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Getting Started
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before you begin, ensure you have met the following requirements:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js**: Make sure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Code Editor**: You'll need a code editor to work on this project. We recommend using [Visual Studio Code](https://code.visualstudio.com/) for the best development experience.
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shadaanhussain/NewsNow.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+2. Go to the project folder
+   ```sh
+   cd Newsnow
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```
+3. Install packages with npm
+   ```sh
+   npm i
+   ```
+4. Start  your applicatoin using
+   ```sh
+   npm run start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Components
+## NavBar Component
+The `NavBar` component contains name of all the category and country dropdown and a search. 
 
-## Learn More
+<div align="center">
+    <img width="1007" alt="Screenshot 2023-11-06 at 7 12 37 PM" src="https://private-user-images.githubusercontent.com/75877797/294225657-b7c0d261-cbc1-45c1-bc74-5efbfe35c31d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQzODI4OTEsIm5iZiI6MTcwNDM4MjU5MSwicGF0aCI6Ii83NTg3Nzc5Ny8yOTQyMjU2NTctYjdjMGQyNjEtY2JjMS00NWMxLWJjNzQtNWVmYmZlMzVjMzFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA0VDE1MzYzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdmODRlMjE4MzY4YzIzNDU2OWZmZGVkNDEwY2MyNTE5NTE1NjIxZjI0Nzg4Mjg1YWMzMjViYmM0N2MxNDdmMTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ReG3To8eIpnbIZJjQOFIrZPWSt6IJevzljkRNsT9dsY">
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## News Component
+The `News` component shows all the news of the chosen category and country. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div align="center">
+    <img width="1007" alt="Screenshot 2023-11-06 at 7 12 37 PM" src="https://private-user-images.githubusercontent.com/75877797/294225661-0743e05d-fc5f-4324-b344-e38316643abe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQzODI4OTEsIm5iZiI6MTcwNDM4MjU5MSwicGF0aCI6Ii83NTg3Nzc5Ny8yOTQyMjU2NjEtMDc0M2UwNWQtZmM1Zi00MzI0LWIzNDQtZTM4MzE2NjQzYWJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA0VDE1MzYzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4Y2M2NzRlMzczNzAxM2UxNTMzZDdlNTg2YmYxZDY5ZDYwMThmYzdkZDM4ZmQ3ZTkzYjIxNWY5NTNiY2RmM2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fjTe2eEjTSHmg5Id-NWLLlGc652wyj4_QWQzTC4hUXU">
+</div>
 
-### Code Splitting
+## NewsItem Component
+The `NewsItem` component shows all the information about the news it has read more option which will redirect the user to the news link, it also the the news agency name on top right by which the news was published and it has share button which allow user to share the news with others. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+    <img width="430" alt="Screenshot 2023-11-06 at 7 12 37 PM" src="https://private-user-images.githubusercontent.com/75877797/294225630-e85a16e2-ea5a-4343-b9fa-992357967d98.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQzODI4OTEsIm5iZiI6MTcwNDM4MjU5MSwicGF0aCI6Ii83NTg3Nzc5Ny8yOTQyMjU2MzAtZTg1YTE2ZTItZWE1YS00MzQzLWI5ZmEtOTkyMzU3OTY3ZDk4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA0VDE1MzYzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc2NWU2MzIwMTZlMTY2ZDZjZDkyNmNjODNhMTFkODU4MWJhYzE5YTZlMGQzZWE4ZTk1ZTcxZDBmZDEyMWYxOWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.azp68UgnnyQ3JseEzMy6d-h7fVIbiLponhUmOnZjunE">
+</div>
